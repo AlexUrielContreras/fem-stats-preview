@@ -6,4 +6,31 @@
   color: hsl(228deg, 45%, 44%);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+}
+
+.container {
+  min-height: 100vh;
+  display: grid;
+  justify-items: end;
+  align-content: center;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.text {
+  padding: 30px;
+  display: grid;
+}
+
 /*# sourceMappingURL=styles.css.map */
